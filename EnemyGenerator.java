@@ -26,7 +26,7 @@ public class EnemyGenerator {
     public EnemyGenerator() {
         enemyList = new ArrayList<>();
         try {
-            File enemies = new File("C:\\Users\\Yisacor\\OneDrive\\Desktop\\File\\cecs 277\\Lab-12\\src\\lab\\pkg12\\enemyList.txt");
+            File enemies = new File("enemyList.txt");
             Scanner in = new Scanner(enemies);
 
             while (in.hasNextLine()) {
